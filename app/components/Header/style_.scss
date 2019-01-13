@@ -1,0 +1,39 @@
+@import '../../styles/global-styles.scss';
+
+.top-bar{
+  background-color: $color1;
+  color: $color5;
+  padding: 5px 0;
+  font-size: 14px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 43px;
+}
+
+.wrapper{
+
+  margin: 0 auto;
+  width: 860px;
+}
+
+.navigation{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px;
+  padding-left: 10px;
+  margin: 0px;
+}
+
+
+.navigation li{
+  padding: 5px 0;
+  font-size: 16px;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: $color5;
+}

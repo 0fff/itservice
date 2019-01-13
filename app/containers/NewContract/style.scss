@@ -1,0 +1,32 @@
+@import '../../styles/global-styles.scss';
+
+h3 {
+   color: $color-primary-1;
+   border-bottom: 2px solid $color-primary-1;
+}
+
+.maincontex input {
+  outline: none;
+  margin-right: 5px;
+  border: none;
+
+  border-bottom: 2px solid lightgray;
+}
+
+.react-select-ok__control--is-focused{
+  transition: none !important;
+  box-shadow: none !important;
+  border-color: none !important;
+  outline: none !important;
+}
+
+.react-select-ok__control--is-focused:hover{
+  transition: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+.sselect{
+  outline: none;
+}
